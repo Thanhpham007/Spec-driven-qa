@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+dist/
+*.egg-info/
+
+# Secrets and local env
+config/.env
+.env
+.env.*
+!.env.example
+!config/.env.example
+
+# Playwright / pytest artifacts
+reports/
+test-results/
+playwright-report/
+.pytest_cache/
+*.png
+*.webm
+trace.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
